@@ -11,6 +11,6 @@ print(restar(5,3))
 def multiplicar(a,b):
     multi = 0
     for i in range(b):
-        multi += sumar(a,a)
+        multi = sumar(multi,a)
     return multi
 print(multiplicar(5,3))
