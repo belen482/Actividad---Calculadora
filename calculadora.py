@@ -14,3 +14,7 @@ def multiplicar(a,b):
         multi = sumar(multi,a)
     return multi
 print(multiplicar(5,3))
+
+def division(a,b):
+    return a/ b
+print(division(8,4))
